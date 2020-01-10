@@ -1,4 +1,5 @@
 ## <b>Inherf and Interface</b> ##
+> 抽象类和接口重要区别是的is-a 和 has-a 的关系
 
 ### <b>Inherf</b> ###
 - 职能：代码复用
