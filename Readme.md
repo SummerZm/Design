@@ -32,5 +32,15 @@ Actually, Coding can't give you fun, design do it.
 ### **Dir: Model** ###
 |File|Comment|
 |:---|:---|
-|singleton.md| 设计模式-单例模式|
+|<b>build</b>| <b>目录：建造型模式</b>|
+|singleton.md | 单例/多例 - 构建唯一对象/延迟加载|
+|factory.md   | 工厂 - 封装对象的创建|
+|builder.md   | 建造者 - 构建不可变对象/简化构造函数|
+|<b>struct</b>|<b>目录：结构型模式</b>|
+|adapter.md   | 适配器 - 封装第三方代码/灵活替换|
+|bridge.md    | 桥接 - 多维独立应用场景|
+|composite.md   | 组合 - 用于树型结构|
+|flyweight.md   | 享元 - 内存优化|
+|proxy_decorator.md   | 代理/装饰 - 业务/逻辑分离|
+
 ----------------------------------------------------------------
