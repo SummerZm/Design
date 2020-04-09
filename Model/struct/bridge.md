@@ -8,7 +8,7 @@
 ### <b>代码实现</b> ###
     ```java
     // 应用场景：不同类型，不同渠道消息的发送。
-
+    
     public interface MsgSender {
       void send(String message);
     }

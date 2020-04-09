@@ -75,6 +75,8 @@
     }
 
     // 使用适配器模式进行改造
+    // 框架类调用接口，子类根据各自逻辑实现接口
+    // 如果子类来自第三方，可通过继承封装多一层。封装方式参照上一个例子
     public interface ISensitiveWordsFilter { // 统一接口定义
       String filter(String text);
     }
