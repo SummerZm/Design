@@ -5,6 +5,11 @@
 - 问题: 千百万人在线游戏的会在内存中生成重复的棋子大小颜色等数据数据？
 - 解决:
     ```java
+	//  棋盘 [chessbroad]
+	//	 - 棋子 [ChessPiece]
+	//	 	- 棋子的属性 [ChessPieceUnit] - 棋子属性静态工厂 [ChessPieceUnitFactory - 静态享元] 
+	// 		- 棋子的位置 [X-Y]
+
     // 享元类 - [多余重复的属性]
     public class ChessPieceUnit {
       private int id;
